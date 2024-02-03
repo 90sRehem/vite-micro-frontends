@@ -1,0 +1,25 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plop": "plop",
+    "generate": "./node_modules/.bin/plop --plopfile ./plopfile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@turbo/gen": "^1.11.3",
+    "@types/node": "^20.11.10",
+    "eslint": "^8.56.0",
+    "plop": "^4.0.1",
+    "typescript": "^5.3.3",
+    "eslint-config": "workspace:*",
+    "tsconfig": "workspace:*"
+  },
+  "dependencies": {
+  }
+}
